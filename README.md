@@ -14,7 +14,7 @@
 
 npm install 
 
-react-native run-ios
+npm run ios
    
 npm start
  

@@ -18,7 +18,7 @@ function receivePosts(subreddit, responseData) {
 
 const REQUEST_URL = 'https://api.douban.com/v2/movie/top250';
 export function fetchMovieListAction(subreddit) {
-  return function(dispatch) {
+  return function (dispatch) {
     dispatch(requestPosts(REQUEST_URL));
 
     return fetch(REQUEST_URL)

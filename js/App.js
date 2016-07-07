@@ -1,7 +1,8 @@
 import React, { Component, PropTypes } from 'react';
 import { Text, TextInput, View, ListView, Image, StyleSheet } from 'react-native';
-import { fetchMovieListAction } from './actions/movieListAction';
 import { connect } from 'react-redux';
+import { fetchMovieListAction } from './actions/movieListAction';
+import Nav from './components/Nav';
 
 const styles = StyleSheet.create({
   container: {
@@ -85,6 +86,7 @@ class App extends Component {
 
     return (
       <View style={styles.view}>
+        <Nav title="电影Top250" />
         <TextInput
           placeholder="搜索电影"
           style={styles.textInput}
