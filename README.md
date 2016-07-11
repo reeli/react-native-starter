@@ -10,11 +10,17 @@
     
 > xcode 必须大于等于 7.0 版本
      
-## 启动
+## IOS 启动
 
 npm install 
 
 npm run ios
    
 npm start
+ 
+## Android 启动
+
+安装Android Studio 以及对应的 Android SDK 和 Android 模拟器镜像文件 
+
+npm run android
  
